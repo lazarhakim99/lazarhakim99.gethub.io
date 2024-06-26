@@ -15,26 +15,28 @@
 </head>
 <body>
   <h1>Welcome!</h1>
-  <p>To access our Wi-Fi, please complete the task below:</p>
-  <form id="taskForm">
-    <label for="task">Enter the answer to 2 + 2:</label><br>
-    <input type="text" id="task" name="task"><br><br>
-    <input type="button" value="Submit" onclick="checkAnswer()">
+  <p>To access our Wi-Fi, please follow our Instagram page and submit your Instagram username below:</p>
+  <p><a href="https://www.instagram.com/yourpage" target="_blank">@yourpage</a></p>
+  <form id="instagramForm" onsubmit="submitForm(event)">
+    <label for="username">Instagram Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+    <input type="submit" value="Submit">
   </form>
   <div id="passwordDiv" class="hidden">
-    <h2>Congratulations!</h2>
+    <h2>Thank you for following us!</h2>
     <p>Here is your Wi-Fi password:</p>
     <p><strong>Password: YourPassword</strong></p>
   </div>
   <script>
-    function checkAnswer() {
-      var answer = document.getElementById('task').value;
-      if (answer == '4') {
-        document.getElementById('taskForm').classList.add('hidden');
-        document.getElementById('passwordDiv').classList.remove('hidden');
-      } else {
-        alert('Incorrect answer. Please try again.');
-      }
+    function submitForm(event) {
+      event.preventDefault();
+      var username = document.getElementById('username').value;
+      // Here you would typically verify if the user follows the page.
+      // For now, we'll just assume they did.
+      document.getElementById('instagramForm').classList.add('hidden');
+      document.getElementById('passwordDiv').classList.remove('hidden');
+      // Optionally, send the username to your server for verification
+      // and/or record keeping.
     }
   </script>
 </body>
