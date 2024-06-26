@@ -11,11 +11,11 @@
   </style>
   <script>
     function redirectToInstagram() {
-      window.location.href = "https://www.instagram.com/amar.aymane";
+      window.location.href = "https://www.instagram.com/instagram";
     }
 
     function showPassword() {
-      window.location.href = "lazarhakim99.github.io/lazarhakim99.gethub.io/thankyou.html"; // Replace with your actual thank you page URL
+      window.location.href = "https://lazarhakim99.github.io/lazarhakim99.gethub.io/thankyou.html"; // Replace with your actual thank you page URL
     }
   </script>
 </head>
@@ -28,4 +28,3 @@
   <button onclick="showPassword()">Get Password</button>
 </body>
 </html>
-
