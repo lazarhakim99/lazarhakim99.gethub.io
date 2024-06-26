@@ -15,7 +15,7 @@
     }
 
     function showPassword() {
-      window.location.href = "https://www.yourwebsite.com/thankyou.html"; // Replace with your actual thank you page URL
+      window.location.href = "lazarhakim99.github.io/lazarhakim99.gethub.io/thankyou.html"; // Replace with your actual thank you page URL
     }
   </script>
 </head>
