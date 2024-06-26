@@ -11,15 +11,21 @@
   </style>
   <script>
     function redirectToInstagram() {
-      window.location.href = "https://www.instagram.com/amar.aymane";
-      setTimeout(() => {
-        window.location.href = "https://www.yourwebsite.com/thankyou.html"; // This is the URL of the page with the password
-      }, 5000); // Adjust the delay as needed (e.g., 5000 milliseconds = 5 seconds)
+      window.location.href = "https://www.instagram.com/yourpage";
+    }
+
+    function showPassword() {
+      window.location.href = "https://www.yourwebsite.com/thankyou.html"; // Replace with your actual thank you page URL
     }
   </script>
 </head>
-<body onload="redirectToInstagram()">
+<body>
   <h1>Welcome!</h1>
-  <p>To access our Wi-Fi, please follow our Instagram page. You will be redirected shortly...</p>
+  <p>To access our Wi-Fi, please click the button below to follow our Instagram page:</p>
+  <button onclick="redirectToInstagram()">Follow Instagram</button>
+  <br><br>
+  <p>After following, click here to get the password:</p>
+  <button onclick="showPassword()">Get Password</button>
 </body>
 </html>
+
