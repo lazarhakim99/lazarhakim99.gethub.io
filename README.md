@@ -16,7 +16,7 @@
 <body>
   <h1>Welcome!</h1>
   <p>To access our Wi-Fi, please follow our Instagram page and submit your Instagram username below:</p>
-  <p><a href="https://www.instagram.com/yourpage" target="_blank">@yourpage</a></p>
+  <p><a href="https://www.instagram.com/amar.aymane" target="_blank">@yourpage</a></p>
   <form id="instagramForm" onsubmit="submitForm(event)">
     <label for="username">Instagram Username:</label><br>
     <input type="text" id="username" name="username" required><br><br>
