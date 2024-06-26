@@ -11,7 +11,7 @@
   </style>
   <script>
     function redirectToInstagram() {
-      window.location.href = "https://www.instagram.com/yourpage";
+      window.location.href = "https://www.instagram.com/amar.aymane";
       setTimeout(() => {
         window.location.href = "https://www.yourwebsite.com/thankyou.html"; // This is the URL of the page with the password
       }, 5000); // Adjust the delay as needed (e.g., 5000 milliseconds = 5 seconds)
