@@ -11,7 +11,7 @@
   </style>
   <script>
     function redirectToInstagram() {
-      window.location.href = "https://www.instagram.com/yourpage";
+      window.location.href = "https://www.instagram.com/amar.aymane";
     }
 
     function showPassword() {
